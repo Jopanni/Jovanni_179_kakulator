@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="kul.css">
+    <script src="ator.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="calculator__output"><input type="teks" name="display" placeholder="0" id="display"></div>
+            <div class="calculator__keys">
+            <button class="calculator__key calculator__key--operator" onclick="tambahOperator('+')">+</button>
+            <button class="calculator__key calculator__key--operator" onclick="tambahOperator('-')">-</button>
+            <button class="calculator__key calculator__key--operator" onclick="tambahOperator('*')">&times;</button>
+            <button class="calculator__key calculator__key--operator" onclick="tambahOperator('/')">÷</button>
+            <button class="calculator__key" onclick="tambahAngka('7')">7</button>
+            <button class="calculator__key" onclick="tambahAngka('8')">8</button>
+            <button class="calculator__key" onclick="tambahAngka('9')">9</button>
+            <button class="calculator__key" onclick="tambahAngka('4')">4</button>
+            <button class="calculator__key" onclick="tambahAngka('5')">5</button>
+            <button class="calculator__key" onclick="tambahAngka('6')">6</button>
+            <button class="calculator__key" onclick="tambahAngka('1')">1</button>
+            <button class="calculator__key" onclick="tambahAngka('2')">2</button>
+            <button class="calculator__key" onclick="tambahAngka('3')">3</button>
+            <button class="calculator__key" onclick="tambahAngka('0')">0</button>
+            <button class="calculator__key" onclick="clearScreen()">C</button>
+            <button class="calculator__key calculator__key--enter" onclick="hitung()">=</button>
+        </div>
+    </div>
+</body>
+</html>
